@@ -8,8 +8,8 @@ A aplicação contínua de *calbacks* pode  gerar uma poluição visual no códi
 
 ## VOCÊ SERÁ CAPAZ DE:
 
-:heavy_check_mark: Fazer chamadas assíncronas utilizando *promises*
-:heavy_check_mark: Realizar chamadas a API's de terceiros através da função *fetch*
+:heavy_check_mark: Fazer chamadas assíncronas utilizando *promises* <br>
+:heavy_check_mark: Realizar chamadas a API's de terceiros através da função *fetch* <br>
 :heavy_check_mark: Tratar os dados em JSON recebidos
 
 ---
@@ -30,8 +30,7 @@ Por isso, é importante ressaltar que esse será um aprendizado gradual. Se dedi
 
 Em termos simples, uma API é um conjunto de regras e padrões de programação, que possibilita que diferentes aplicações conversem entre si. Ela funciona como um intermediador (ou, se preferir, um *ponto de acesso*) para que um aplicativo possa acessar um banco de dados.
 
-![Gif API](https://miro.medium.com/max/700/1*_JJTknJYPxJPLNEEB3jh7Q.gif)
-
+<img src="https://miro.medium.com/max/700/1*_JJTknJYPxJPLNEEB3jh7Q.gif" alt="gif de uma api" width="800" height="400"/>
 
 É através do uso de APIs que é possível fazer requisições de informações especificas na *web* e, até mesmo, alterar dados em outros aplicativos a partir de um site. Um exemplo desse último caso é um botão que alguns sites possuem de "Compartilhar no Facebook". Assim que esse botão é clicado, o site que o usuário está visitando se comunica com a sua conta do Facebook e altera os dados, adicionando um novo *status*.
 
@@ -57,7 +56,7 @@ No caso das funções assíncronas, essa organização ocorre de modo diferente.
 
 Como você pode perceber, é difícil organizar a "fila" das funções assíncronas. Para resolver esse problema, as pessoas desenvolvedoras começaram a usar *callbacks*, o que a princípio parecia ser uma ótima solução. Porém, em alguns casos a sequência de *callbacks* expandia de forma descontrolada, gerando o famoso *~~e não tão querido~~* ***callback hell***.
 
-![Gif Callback Hell](https://s3.amazonaws.com/com.twilio.prod.twilio-docs/original_images/31orCejQRkSvmchYeZC2GKswNtst-d_xEoSPoP3X-bAm9RRe8hxz59vVZrrRm78VvJgVbuUo5R.png)
+<img src="https://s3.amazonaws.com/com.twilio.prod.twilio-docs/original_images/31orCejQRkSvmchYeZC2GKswNtst-d_xEoSPoP3X-bAm9RRe8hxz59vVZrrRm78VvJgVbuUo5R.png" alt="Gif Callback Hell" width="500" height="300"/>
 
 Assim, foi preciso buscar novas soluções e é aí que entra o objeto do nosso estudo: as *promises*!
 
@@ -132,7 +131,7 @@ const myPromise = new Promise((resolve, reject) => {
 
 Se você executar o código acima em seu editor de texto, perceberá que o erro exibido anteriormente foi tratado. De modo semelhante ao método ```.then()```, o  ```.catch()``` recebe como argumento uma função interna que também recebe um argumento, que é o retorno do ```reject```. Nesse caso, quando a *promise* retorna ```reject```, ela não passa pelos ```.then()``` e cai diretamente no primeiro ```.catch()``` que encontrar. Além disso, a vantagem do ```.catch()``` é que ele captura qualquer erro que possa ter ocorrido dentro de um ```.then()``` anterior, sendo por esse motivo, geralmente usado ao final do código.
 
-![Gif Applause](https://media1.tenor.com/images/0de120c10a661c15cb60fe77b8eac367/tenor.gif?itemid=5833390)
+<img src="https://media1.tenor.com/images/0de120c10a661c15cb60fe77b8eac367/tenor.gif?itemid=5833390" alt="Gif da Meryl Streep aplaudindo" width="500" height="300"/>
 
 Parabéns! Você construiu uma promise 100% funcional e acaba de passar para o próximo desafio: usar seus conhecimentos recém adquiridos para fazer requisições a uma API com uma das funções mais usadas pelas pessoas desenvolvedoras: o ***Fetch***!
 
