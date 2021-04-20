@@ -1,20 +1,20 @@
 # PROMISES
----
 
 ## O QUE VAMOS APRENDER?
----
 
 A aplicação contínua de *calbacks* pode  gerar uma poluição visual no código, dependendo da complexidade do que se deseja desenvolver. Felizmente existe um recurso em *JavaScript* conhecido como *promises*, que facilita nossa leitura e permite que sejam criadas páginas *web* para captação de dados de determinado serviço através de APIs.
 
-## VOCÊ SERÁ CAPAZ DE:
 ---
+
+## VOCÊ SERÁ CAPAZ DE:
 
 :heavy_check_mark: Fazer chamadas assíncronas utilizando *promises*
 :heavy_check_mark: Realizar chamadas a API's de terceiros através da função *fetch*
 :heavy_check_mark: Tratar os dados em JSON recebidos
 
-## PORQUE ISSO É IMPORTANTE?
 ---
+
+## PORQUE ISSO É IMPORTANTE?
 
 Embora não pareçam intuitivas, as *promises* facilitam muito a leitura de códigos assíncronos, tornando o processo de desenvolvimento mais conciso e coerente. São também muito usadas em *JavaScript* para se comunicarem com APIs.
 
@@ -22,8 +22,10 @@ A conexão com serviços de terceiros é fundamental na rotina de quem trabalha 
 
 Por isso, é importante ressaltar que esse será um aprendizado gradual. Se dedique a realizar os exercícios e a ler o material com atenção. Haverá tempo suficiente para a absorção desse conteúdo ao longo da sua formação. Vamos com tudo tryber! 🚀 
 
-## CONTEÚDOS
 ---
+
+## CONTEÚDOS
+
 ### INTERFACE DE PROGRAMAÇÃO DE APLICATIVO (API)
 
 Em termos simples, uma API é um conjunto de regras e padrões de programação, que possibilita que diferentes aplicações conversem entre si. Ela funciona como um intermediador (ou, se preferir, um *ponto de acesso*) para que um aplicativo possa acessar um banco de dados.
@@ -148,8 +150,9 @@ Porém, além do *async* temos também o *await*. O *await* só pode ser usado d
 
 O motivo para a adição do *async* e *await* foi similar ao da adição das promises ao *JavaScript*. Só que, ao invés do *callback hell*, passou-se a ter o *promisse hell*, onde o uso contínuo de *promises* envolvendo outras tornava a leitura muito mais difícil.
 
-### EXERCÍCIOS
 ---
+
+### EXERCÍCIOS
 
 Para fazer os exercícios a seguir, observe a [documentação](https://dog.ceo/dog-api/) de um site de API de imagens de cachorros. Você precisa utilizar o endpoint https://dog.ceo/api/breeds/image/random para a realização do exercício.
 
@@ -157,8 +160,9 @@ Para fazer os exercícios a seguir, observe a [documentação](https://dog.ceo/d
 
 2. Agora faça a requisição utilizando o *async/await*
 
-### RECURSOS ADICIONAIS
 ---
+
+### RECURSOS ADICIONAIS
 
 - Bônus: nos dois exercícios anteriores, coloque um botão de modo que, ao ser clicado, a tela seja atualizada e uma nova imagem apareça.
 
