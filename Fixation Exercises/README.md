@@ -1,5 +1,4 @@
 # GABARITO DOS EXERCÍCIOS DE FIXAÇÃO :ROCKET:
----
 
 ## EXERCÍCIO 1
 >fixation-exercise-1.js
