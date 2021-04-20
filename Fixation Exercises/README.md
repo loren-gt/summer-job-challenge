@@ -1,4 +1,4 @@
-# GABARITO DOS EXERCÍCIOS DE FIXAÇÃO :ROCKET:
+# GABARITO DOS EXERCÍCIOS DE FIXAÇÃO :rocket:
 
 ## EXERCÍCIO 1
 >fixation-exercise-1.js
