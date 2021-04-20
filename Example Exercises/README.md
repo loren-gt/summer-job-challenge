@@ -1,5 +1,4 @@
 # GABARITO DOS EXERCÍCIOS DE EXEMPLO :ROCKET:
----
 
 ## EXERCÍCIO 1
 >example-exercise-1.js
